@@ -1,0 +1,22 @@
+@import './utils/variables';
+@import './utils/visuallly-hiden';
+
+@import './utils/mixin';
+
+@import './base/common';
+@import './base/container';
+
+@import './layout/header';
+@import './component/logo_header';
+
+@import './layout/hero';
+@import './component/backdrop';
+@import './component/modal-backdrop-window';
+@import './layout/Our-preferenses';
+@import './layout/Team';
+@import './layout/regular_customers';
+@import './component/logo-footer';
+@import './layout/footer';
+@import './layout/portfolio';
+
+

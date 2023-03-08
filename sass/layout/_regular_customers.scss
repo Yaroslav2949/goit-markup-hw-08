@@ -1,0 +1,70 @@
+.discribe-clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #212121;
+}
+
+.clients-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-list-link {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    transition: border var(--duration) var(--timing-function);
+    &:hover {
+      border: 1px solid #2196f3;
+
+     
+}
+   &:focus {
+    border: 1px solid #2196f3;
+    
+
+}
+
+}
+
+.clients-icon {
+    display: flex;
+    fill: #afb1b8;
+    transition: fill var(--duration) var(--timing-function);
+    .clients-list-link:hover & {
+    fill:#2196f3;
+}
+ .clients-list-link:focus & {
+    fill: #2196f3;
+}
+}
+
+// .clients-list-link:hover {
+//     border: 1px solid #2196f3;
+// }
+
+// .clients-list-link:focus {
+//     border: 1px solid #2196f3;
+// }
+
+// .clients-list-link:hover .clients-icon {
+//     fill:#2196f3;
+// }
+
+// .clients-list-link:focus .clients-icon {
+//     fill: #2196f3;
+// }

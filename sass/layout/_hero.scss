@@ -1,0 +1,55 @@
+.hero {
+  max-width: 1600px;
+  margin: 0px auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/Img\ bg.jpg");
+  background-color: #c4c4c4;
+  background-size: cover;
+
+  background-position: center;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.hero-text {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  margin-top: 0px;
+
+  margin-bottom: 30px;
+
+  width: 696px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* кнопка Замовити послугу */
+
+.hero-button {
+  background: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px 32px;
+}

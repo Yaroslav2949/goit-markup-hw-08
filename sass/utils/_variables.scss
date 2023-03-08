@@ -1,0 +1,17 @@
+
+:root {
+  --accent-color: #2196f3;
+  --secondary-accent-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-footer-color: #2f303a;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  color: #212121;
+}
