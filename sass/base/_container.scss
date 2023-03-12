@@ -6,39 +6,21 @@
 //     width: 1200px;
 // }
 
+
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
- 
-}
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 
-
-//  480 +
-
-@media screen and (min-width:480px) {
-    
-    .container {
-            width: 480px;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-}
-
-// 768 px +
-
-@media screen and (min-width: 768px) {
-
-    .container {
-        width: 736px;
-       
+    @media screen and (min-width: 480px) {
+        width: 480px;
     }
-}
-// 1200px +
-@media screen and (min-width: 1200px) {
 
-    .container {
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
         width: 1200px;
-
     }
 }
