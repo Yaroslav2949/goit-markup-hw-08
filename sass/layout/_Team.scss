@@ -23,23 +23,63 @@
 .team-list {
     margin: 0px;
     padding: 0px;
-
+ @media screen and (min-width:768px){
+ flex-wrap: wrap;
     display: flex;
+ 
+}
+    
+}
+.team-list__team-list-element__img-item{
+@media screen and (min-width:480px) {
+        width: 450px;
+
+}
+@media screen and (min-width:768px) {
+    width: 354px;
+    
+}
+
+@media screen and (min-width:1200px){
+    width: 270px;
+}
 }
 
 /* Альтернативний варіант розбиття блоків Наша Команда */
 .team-list__team-list-element {
-    width: 270px;
-    margin-right: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    color: #eeeeee;
-    &:last-child {
-    margin-right: 0px;
+
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+ color: #eeeeee;
+       
+     
+
+         @media screen and (min-width:480px){
+        width: 450px;
+            margin-bottom: 30px;
+
+         }
+ @media screen and (min-width:768px){
+   width: 354px;
+    &:nth-child(2n+1){
+
+        margin-right: 30px;
+    } 
+
+}
+
+
+ @media screen and (min-width:1200px){
+&:last-child {
+ margin-right: 0px;
+}
+ margin-right: 30px;
+ width: 270px;
 }
 
 }
+
 
 // .team-list-element:last-child {
 //     margin-right: 0px;
@@ -65,6 +105,12 @@
     padding-bottom: 30px;
 
     background-color: #ffffff;
+//     @media screen and (max: width 479px;){
+
+// width:100%;
+        
+//     }
+   
 }
 
 .team-members-text {
