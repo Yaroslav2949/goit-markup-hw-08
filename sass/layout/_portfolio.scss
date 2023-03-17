@@ -193,15 +193,21 @@ justify-content: center;
 
 // .portfolio-list-element > .link:focus .description-text {
 //   transform: translateY(0%);
+
 // }
+
+
+
+
 .portfolio-list {
+  margin: 0px;
+    padding: 0px;
 
   @media screen and (min-width:768px) {
 
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+    
 
 
   }
