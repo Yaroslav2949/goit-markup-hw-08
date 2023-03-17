@@ -1727,7 +1727,7 @@ flex-direction: column;
 }
 
 /* Альтернатива розміщення блоків Портфоліо*/
-/* .section-list-element:nth-child(3n) {
+/* .portfolio-list-element:nth-child(3n) {
   margin-right: 0px;
 }
 .section-list-element:nth-last-child(-n + 3) {
@@ -1746,13 +1746,6 @@ flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
   .portfolio-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
     gap: 30px;
   }
 }
@@ -1763,15 +1756,23 @@ flex-direction: column;
   height: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .portfolio-list__portfolio-list-element {
     width: 450px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .portfolio-list__portfolio-list-element {
     margin-bottom: 30px;
+  }
+  .portfolio-list__portfolio-list-element:last-child {
+    margin: 0px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio-list__portfolio-list-element {
     width: 354px;
+    margin-bottom: 30px;
   }
   .portfolio-list__portfolio-list-element:nth-child(2n+1) {
     margin-right: 30px;

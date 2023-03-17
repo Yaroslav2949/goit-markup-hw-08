@@ -164,14 +164,14 @@ justify-content: center;
 
 /* Альтернатива розміщення блоків Портфоліо*/
 
-/* .section-list-element:nth-child(3n) {
+/* .portfolio-list-element:nth-child(3n) {
   margin-right: 0px;
 }
 .section-list-element:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 } */
 
-// .section-list-element {
+// ..portfolio-list-element {
  
   
 //   margin-right: 30px;
@@ -179,19 +179,19 @@ justify-content: center;
  
 // } 
 
-// .section-list-element .link:hover {
+// ..portfolio-list-element .link:hover {
 //   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 //     1px 4px 6px rgba(0, 0, 0, 0.16);
 // }
-// .section-list-element > .link:focus {
+// .portfolio-list-element> .link:focus {
 //   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 //     1px 4px 6px rgba(0, 0, 0, 0.16);
 // }
-// .section-list-element > .link:hover .description-text {
+// .portfolio-list-element> .link:hover .description-text {
 //   transform: translateY(0%);
 // }
 
-// .section-list-element > .link:focus .description-text {
+// .portfolio-list-element > .link:focus .description-text {
 //   transform: translateY(0%);
 // }
 .portfolio-list {
@@ -207,10 +207,7 @@ justify-content: center;
   }
 
   @media screen and (min-width:1200px) {
-    display: flex;
-      flex-wrap: wrap;
-      margin: 0px;
-      padding: 0px;
+    
     gap: 30px;
 
   }
@@ -226,15 +223,24 @@ justify-content: center;
  
 }
 .portfolio-list__portfolio-list-element {
-@media screen and (min-width:480px) {
+@media screen and (max-width:767px) {
     width: 450px;
+
+  }
+
+@media screen and (max-width:1199px) {
+  
     
+    &:last-child {
+        margin: 0px;
+      }
     margin-bottom: 30px;
 
   }
 
     @media screen and (min-width: 768px) and (max-width:1199px) {
     width: 354px;
+    margin-bottom: 30px;
 
     &:nth-child(2n+1) {
 
