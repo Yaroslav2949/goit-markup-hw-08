@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -101,16 +103,16 @@
             <li><a href="mailto:info@devstudio.com"class="mobile-menu-contact-list__mail">info@devstudio.com </a></li>
           </ul>
           <ul class="mobile-menu-social-links">
-            <li>
+            <li class="mobile-menu-social-links__list">
               <a href=""class="mobile-menu-social-links__item">Instagram</a>
             </li>
-             <li>
+             <li class="mobile-menu-social-links__list">
               <a href=""class="mobile-menu-social-links__item">Twitter</a>
             </li>
-             <li>
+             <li class="mobile-menu-social-links__list">
               <a href=""class="mobile-menu-social-links__item">Facebook</a>
             </li>
-             <li>
+             <li class="mobile-menu-social-links__list">
               <a href=""class="mobile-menu-social-links__item">Linkedin</a>
             </li>
            
@@ -191,12 +193,18 @@
           <ul class="discribe-list">
             <li class="discribe-element">
               <div class="discribe-element-icon">
+                <picture>
+                  <source srcset="./images/box1.jpg 1x, ./images/box1@2x.jpg 2x"
+            media="(min-width:1200px)"
+            type="image/jpeg"> 
                 <img
                   class="img-item"
-                  src="images/img1.jpg"
+                
+                  src="images/box1.jpg 1x"
                   width="370"
                   alt="Робочий процес з гаджетами"
                 />
+                </picture>
                 <div class="lable">
                   <h3 class="lable-title">Десктопні додатки</h3>
                 </div>
@@ -204,12 +212,17 @@
             </li>
             <li class="discribe-element">
               <div class="discribe-element-icon">
+                <picture>
+                  <source srcset="./images/box2.jpg 1x, ./images/box2@2x.jpg 2x"
+            media="(min-width:1200px)"
+            type="image/jpeg"> 
                 <img
                   class="img-item"
-                  src="images/img2.jpg"
+                  src="images/box2.jpg"
                   width="370"
                   alt="Робочий процес з гаджетами"
                 />
+                </picture>
                 <div class="lable">
                   <h3 class="lable-title">Мобільні додатки</h3>
                 </div>
@@ -217,12 +230,17 @@
             </li>
             <li class="discribe-element">
               <div class="discribe-element-icon">
+                <picture>
+                  <source srcset="./images/box3.jpg 1x, ./images/box3@2x.jpg 2x"
+            media="(min-width:1200px)"
+            type="image/jpeg"> 
                 <img
                   class="img-item"
-                  src="images/img3.jpg"
+                  src="images/box3.jpg"
                   width="370"
                   alt="Робочий процес з гаджетами"
                 />
+                </picture>
                 <div class="lable">
                   <h3 class="lable-title">Дизайнерські рішення</h3>
                 </div>
@@ -239,14 +257,24 @@
           <h2 class="discribe-team">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__team-list-element">
+              <picture>
+                <source srcset="./images/img44desctop.jpg 1x, ./images/img44desctop@2x.jpg 2x"
+                media=" (min-width:1200px)"
+                type="image/jpeg"/>
+                <source srcset="./images/img44tablet.jpg 1x, ./images/img44tablet@2x.jpg 2x"
+            media="(min-width:768px)"
+            type="image/jpeg" >
+            <source srcset="./images/img44m.jpg 1x, ./images/img44m@2x.jpg 2x"
+            media="(max-width:767px)"
+            type="image/jpeg">
+
               <img
                 class="team-list__team-list-element__img-item"
-                srcset="images/img44.jpg 1x, images/img44@2x.jpg 2x"
-                src="images/img44.jpg"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px,(min-width: 488px) 450px ,100vw"
-                width="270"
+                src="images/img44m.jpg"
+
                 alt="Фото працівника"
               />
+              </picture>
               <div class="team-members-discribe">
                 <h3 class="team-members">Ігор Дем'яненко</h3>
                 <p class="team-members-text">Product Designer</p>
@@ -292,13 +320,23 @@
               </div>
             </li>
             <li class="team-list__team-list-element">
+              <picture>
+                <source srcset="./images/img55desctop.jpg 1x, ./images/img55desctop@2x.jpg 2x"
+                media=" (min-width:1200px)"
+                type="image/jpeg"/>
+                <source srcset="./images/img55tablet.jpg 1x, ./images/img55tablet@2x.jpg 2x"
+            media="(min-width:768px)"
+            type="image/jpeg" >
+            
               <img
+              
                 class="team-list__team-list-element__img-item"
-                srcset="images/img55.jpg 1x, images/img55@2x.jpg 2x"
-                src="images/img55.jpg"
-                width="270"
+                
+                src="images/img55m.jpg"
+                
                 alt="Фото працівника"
               />
+              </picture>
               <div class="team-members-discribe">
                 <h3 class="team-members">Ольга Рєпіна</h3>
                 <p class="team-members-text">Frontend Developer</p>
@@ -343,13 +381,24 @@
               </div>
             </li>
             <li class="team-list__team-list-element">
+              <picture>
+                <source srcset="./images/img66desctop.jpg 1x, ./images/img66desctop@2x.jpg 2x"
+                media=" (min-width:1200px)"
+                type="image/jpeg"/>
+                <source srcset="./images/img66tablet.jpg 1x, ./images/img66tablet@2x.jpg 2x"
+            media="(min-width:768px)"
+            type="image/jpeg" >
+            <source srcset="./images/img66m.jpg 1x, ./images/img66m@2x.jpg 2x"
+            media="(max-width:767px)"
+            type="image/jpeg">
               <img
                 class="team-list__team-list-element__img-item"
-                srcset="images/img66.jpg 1x, images/img66@2x.jpg 2x"
-                src="images/img66.jpg"
-                width="270"
+               
+                src="images/img66m.jpg"
+              
                 alt="Фото працівника"
               />
+              </picture>
               <div class="team-members-discribe">
                 <h3 class="team-members">Микола Тарасов</h3>
                 <p class="team-members-text">Marketing</p>
@@ -395,13 +444,25 @@
               </div>
             </li>
             <li class="team-list__team-list-element">
+              <picture>
+              <source srcset="./images/img77desctop.jpg 1x, ./images/img77desctop@2x.jpg 2x"
+                media=" (min-width:1200px)"
+                type="image/jpeg"/>
+                <source srcset="./images/img77tablet.jpg 1x, ./images/img77tablet@2x.jpg 2x"
+            media="(min-width:768px)"
+            type="image/jpeg" >
+            <source srcset="./images/img77m.jpg 1x, ./images/img77m@2x.jpg 2x"
+            media="(max-width:767px)"
+            type="image/jpeg">
+
               <img
                 class="team-list__team-list-element__img-item"
-                srcset="images/img77.jpg 1x, images/img77@2x.jpg 2x"
-                src="images/img77.jpg"
-                width="270"
+    
+                src="images/img77m.jpg"
+               
                 alt="Фото працівника"
               />
+              </picture>
               <div class="team-members-discribe">
                 <h3 class="team-members">Михайло Єрмаков</h3>
                 <p class="team-members-text">UI Designer</p>
