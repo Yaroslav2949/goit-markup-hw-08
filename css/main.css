@@ -1469,6 +1469,7 @@ flex-direction: column;
   .footer-links-container {
     width: 206px;
     margin-bottom: 60px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }
