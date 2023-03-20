@@ -3,6 +3,8 @@
     // font-weight: 400;
     // font-size: 14px;
     // line-height: 1.7;
+    font-family: 'Roboto';
+        font-style: normal;
      @include font ( 14px, 400, 1.7);
     letter-spacing: 0.03em;
 
@@ -15,7 +17,7 @@
      &:focus {
     color: var(--accent-color);
 }
-
+ 
 }
 
 .footer-contact-list {
@@ -27,7 +29,7 @@
             text-align: center;
         }
         @media screen and (min-width:768px)and (max-width: 1199px) {
-            margin-left: 76px;
+            margin-left: 115px;
             margin-bottom: 60px;
         }
 
@@ -45,7 +47,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-   
+    line-height: 16px;
+    text-align: center;
+        letter-spacing: 0.03em;
     display: block;
     letter-spacing: 0.03em;
 
