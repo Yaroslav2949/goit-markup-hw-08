@@ -58,9 +58,25 @@ margin-right: 30px;
 
 }
        
-    
+   @media screen and (max-width: 767px) {
+&:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+   }
+
+        @media screen and (min-width: 768px)and (max-width: 1199px){
+            &:nth-last-child(n+3){
+                margin-bottom: 30px;
+            }
+
+                       
+        }
+
+
  
-   
+
     
  
 }
@@ -90,18 +106,13 @@ margin-right: 30px;
     @include font(14px, 700, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 270px;
+   
     margin-top: 0px;
+   
+    text-align: center;
     margin-bottom: 10px;
     color: #212121;
-    @media screen and (max-width:767px){
 
- 
-    margin: 0 auto;
-    text-align: center
-    
-    
-}
 }
 .preference-list-item__preference-list-text {
     // font-weight: 400;
@@ -112,15 +123,7 @@ margin-right: 30px;
     color: #757575;
     margin: 0;
     padding: 0;
-    @media screen and (max-width: 767px){
-        margin-bottom: 30px;
-        &:not(:last-child) {
-        margin-bottom: 0px;
-      
-
-    }
     
-    }
    
    
         
