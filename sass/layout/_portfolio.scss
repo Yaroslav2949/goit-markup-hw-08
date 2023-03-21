@@ -139,7 +139,7 @@ justify-content: center;
 .discribe-portfolio-item {
   padding: 20px 24px;
   border-left: 1px solid;
-  width: 354px;
+ 
   border-bottom: 1px solid;
  
   border-right: 1px solid;
@@ -147,7 +147,7 @@ justify-content: center;
 
   @media screen and (min-width: 768px)and (max-width: 1199px) {
 
-      flex-grow: 1;
+    
   }
   
 }
@@ -250,7 +250,7 @@ justify-content: center;
   }
 
 @media screen and (max-width:1199px) {
-  
+ 
     
     &:last-child {
         margin: 0px;

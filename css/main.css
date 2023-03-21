@@ -1729,19 +1729,10 @@ flex-direction: column;
 .discribe-portfolio-item {
   padding: 20px 24px;
   border-left: 1px solid;
-  width: 354px;
   border-bottom: 1px solid;
   border-right: 1px solid;
   border-color: #eeeeee;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .discribe-portfolio-item {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-  }
-}
-
 .discribe-portfolio-item__link-name {
   font-family: "Roboto";
   font-style: normal;
