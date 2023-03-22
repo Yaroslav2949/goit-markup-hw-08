@@ -7,12 +7,17 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
-    width: 450px;
+    width: 300px;
 
     background-color: #fff;
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--duration) var(--timing-function);
+    @media screen and (min-width:480px){
+    width: 450px;
 
+
+    }
+   
     @media screen and (min-width:1200px){
 
     width: 528px;
@@ -23,6 +28,7 @@
 /* кнопка (хрестик) закриття модального вікна */
 
 .close-icon {
+    
     position: absolute;
     top: 8px;
     right: 8px;
@@ -44,7 +50,10 @@
     &:focus .close-icon-item {
     fill: var(--accent-color);
 }
+ @media screen and (max-width:479px){
+ margin-top: 10px;
 
+ }
 }
 
 // .close-icon:hover .close-icon-item {
@@ -118,6 +127,11 @@ flex-direction: column;
 .contact-form-field-message {
     display: block;
     margin-bottom: 20px;
+    @media screen and (max-width:479px) {
+           
+            margin-bottom: 10px;
+        }
+
 }
 
 .contact-form-message {
@@ -180,6 +194,10 @@ flex-direction: column;
     letter-spacing: 0.03em;
 
     color: #212121;
+    @media screen and (max-width:479px){
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
 }
 
 .policy-text {
@@ -285,6 +303,9 @@ flex-direction: column;
     margin: auto;
     width: 200px;
     height: 50px;
+    @media screen and (max-width:479px) {
+        height: 40px;
+        }
     background: #2196f3;
     transition: box-shadow var(--duration) var(--timing-function),
         background-color var(--duration) var(--timing-function);
